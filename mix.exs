@@ -20,6 +20,6 @@ defmodule Bertex.Mixfile do
   defp package do
     [ contributors: ["Eduardo Gurgel Pinho"],
       licenses: ["MIT"],
-      links: [ { "Github", "https://github.com/edgurgel/bertex" } ] ]
+      links: %{ "Github" => "https://github.com/edgurgel/bertex" }]
   end
 end
